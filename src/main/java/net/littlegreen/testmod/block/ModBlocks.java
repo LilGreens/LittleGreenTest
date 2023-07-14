@@ -29,13 +29,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
 
-
-
-    public static final RegistryObject<Block> MISSING_ORE = registerBlock("missing_ore ",
+    public static final RegistryObject<Block> RAW_MISSING_BLOCK = registerBlock("raw_missing_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TEST_TAB);
+    public static final RegistryObject<Block> MISSING_ORE = registerBlock("missing_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.TEST_TAB);
-    public static final RegistryObject<Block> DEEPSLATE_MISSING_ORE = registerBlock("deepslate_missing_ore ",
+    public static final RegistryObject<Block> DEEPSLATE_MISSING_ORE = registerBlock("deepslate_missing_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.TEST_TAB);

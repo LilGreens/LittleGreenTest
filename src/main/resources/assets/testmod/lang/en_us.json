@@ -2,7 +2,8 @@
   "item.testmod.missing": "Missing",
   "item.testmod.raw_missing": "Raw Missing",
 
-  "block.testmod.missing_block": "Missing of Block",
+  "block.testmod.missing_block": "Block of Missing",
+  "block.testmod.raw_missing_block": "Block of Raw Missing",
   "block.testmod.missing_ore": "Missing Ore",
   "block.testmod.deepslate_missing_ore": "Deepslate Missing Ore",
 
